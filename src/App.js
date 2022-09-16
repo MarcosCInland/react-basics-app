@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          First react app
-        </p>
+        <p>First react app</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +16,7 @@ function App() {
         >
           Learn React
         </a>
+        <ExpenseItem></ExpenseItem>
       </header>
     </div>
   );
